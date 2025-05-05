@@ -11,6 +11,7 @@
 - Step 5: Execute . $IDF_PATH/export.sh
 - Step 6:  cd project/esp_zigbee_HA_sample/HA_on_off_light
 - Step 7:  idf.py set-target esp32h2 build   This will compile the project and generate a bin file in the build directoty
-- Step 8:   idf.py flash  This will connect to the serial port and flash the bin to esp32h2 
+- Step 8:   idf.py flash  This will connect to the serial port and flash the bin to esp32h2
+---
 The above sample zigbee code will enable the onboard light of esp32h2.
 On your Zigbee2MQtt UI - Enable the PermitJoin.  You should see this device show up.  It will show configuration error, but you should still be able to go into "Expose" and toggle the light which is on PIN 10
