@@ -1,0 +1,11 @@
+services:
+  idf:
+    container_name: idf
+    image: espressif/idf:v5.3.3
+    volumes:
+    - $PWD/esp-zigbee-sdk/examples/:/project
+    devices:
+    - /dev/ttyACM0:/dev/ttyACM0
+    environment:
+    - UID=1001
+    tty: true
