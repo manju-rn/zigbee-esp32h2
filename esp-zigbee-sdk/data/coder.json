@@ -1,0 +1,9 @@
+{
+  "query": {
+    "folder": "/config/examples/esp_zigbee_HA_sample/HA_on_off_light"
+  },
+  "update": {
+    "checked": 1746233725904,
+    "version": "4.99.4"
+  }
+}
